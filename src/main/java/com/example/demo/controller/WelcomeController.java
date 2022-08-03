@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 	@GetMapping("/msg")
 	public String getMessage() {
+		try {
+			
+		}catch(Exception e) {
+			
+		}
 		return "welcome";
 	}
 }
