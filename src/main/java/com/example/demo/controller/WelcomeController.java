@@ -15,6 +15,7 @@ public class WelcomeController {
 			
 		}
 		int a=10;
+		int c=20;
 		
 		return "welcome";
 	}
