@@ -14,6 +14,8 @@ public class WelcomeController {
 		}catch(Exception e) {
 			
 		}
+		int a=10;
+		
 		return "welcome";
 	}
 }
